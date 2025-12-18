@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #fef6f9;
+}
+
+/* HEADER */
+header {
+    background-color: #cdb4db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: #ffafcc;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #333;
+}
+
+/* SECTION */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+textarea {
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* PROFIL */
+.profil img {
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+/* RATING */
+select {
+    padding: 6px;
+    border-radius: 6px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background-color: #a2d2ff;
+    padding: 15px;
+}
+
+/* LOGIN */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffcdb2;
+}
+
+.login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+}
+
+.login-box label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* LOGOUT */
+.logout-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #bde0fe;
+}
+
+.logout-box {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
